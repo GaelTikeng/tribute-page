@@ -12,24 +12,29 @@
   margin: 10px;
 }
 
-#image img {
-  width: 900px;
-  height: 450px;
-  margin: auto;
-
+#image-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
 }
 
 #image {
-  background: white;
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1000px;
+  height: 90vh;
+  display: block;
+  margin: 0 auto;
 }
-#image p {
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  background-color: white;
   text-align: center;
+
 }
 
 #text h2 {
   text-align: center;
-
 }
 
 .life {
